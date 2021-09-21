@@ -39,14 +39,14 @@ namespace LoadDisplayData
             this.OFD = new System.Windows.Forms.OpenFileDialog();
             this.btnClose = new System.Windows.Forms.Button();
             this.cboIDName = new System.Windows.Forms.ComboBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbComboBox = new System.Windows.Forms.GroupBox();
             this.btnComboCsvFile = new System.Windows.Forms.Button();
             this.txtComboCsvFile = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblComboBoxCsvFile = new System.Windows.Forms.Label();
             this.btnShowSelectedId = new System.Windows.Forms.Button();
             this.gbDisplayData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoadCSVFile)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.gbComboBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbDisplayData
@@ -81,7 +81,7 @@ namespace LoadDisplayData
             // btnReplace
             // 
             this.btnReplace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReplace.Location = new System.Drawing.Point(638, 204);
+            this.btnReplace.Location = new System.Drawing.Point(638, 186);
             this.btnReplace.Name = "btnReplace";
             this.btnReplace.Size = new System.Drawing.Size(100, 67);
             this.btnReplace.TabIndex = 117;
@@ -155,21 +155,21 @@ namespace LoadDisplayData
             this.cboIDName.TabIndex = 112;
             this.cboIDName.SelectedIndexChanged += new System.EventHandler(this.cboIDName_SelectedIndexChanged);
             // 
-            // groupBox1
+            // gbComboBox
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.gbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.btnComboCsvFile);
-            this.groupBox1.Controls.Add(this.txtComboCsvFile);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btnShowSelectedId);
-            this.groupBox1.Controls.Add(this.cboIDName);
-            this.groupBox1.Location = new System.Drawing.Point(12, 319);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(746, 96);
-            this.groupBox1.TabIndex = 113;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Combobox";
+            this.gbComboBox.Controls.Add(this.btnComboCsvFile);
+            this.gbComboBox.Controls.Add(this.txtComboCsvFile);
+            this.gbComboBox.Controls.Add(this.lblComboBoxCsvFile);
+            this.gbComboBox.Controls.Add(this.btnShowSelectedId);
+            this.gbComboBox.Controls.Add(this.cboIDName);
+            this.gbComboBox.Location = new System.Drawing.Point(12, 319);
+            this.gbComboBox.Name = "gbComboBox";
+            this.gbComboBox.Size = new System.Drawing.Size(746, 96);
+            this.gbComboBox.TabIndex = 113;
+            this.gbComboBox.TabStop = false;
+            this.gbComboBox.Text = "ComboBox";
             // 
             // btnComboCsvFile
             // 
@@ -192,20 +192,20 @@ namespace LoadDisplayData
             this.txtComboCsvFile.Size = new System.Drawing.Size(299, 20);
             this.txtComboCsvFile.TabIndex = 117;
             // 
-            // label1
+            // lblComboBoxCsvFile
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(172, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 13);
-            this.label1.TabIndex = 116;
-            this.label1.Text = "ComboBox CSV File:";
+            this.lblComboBoxCsvFile.AutoSize = true;
+            this.lblComboBoxCsvFile.Location = new System.Drawing.Point(172, 23);
+            this.lblComboBoxCsvFile.Name = "lblComboBoxCsvFile";
+            this.lblComboBoxCsvFile.Size = new System.Drawing.Size(104, 13);
+            this.lblComboBoxCsvFile.TabIndex = 116;
+            this.lblComboBoxCsvFile.Text = "ComboBox CSV File:";
             // 
             // btnShowSelectedId
             // 
-            this.btnShowSelectedId.Location = new System.Drawing.Point(16, 57);
+            this.btnShowSelectedId.Location = new System.Drawing.Point(16, 49);
             this.btnShowSelectedId.Name = "btnShowSelectedId";
-            this.btnShowSelectedId.Size = new System.Drawing.Size(112, 33);
+            this.btnShowSelectedId.Size = new System.Drawing.Size(126, 33);
             this.btnShowSelectedId.TabIndex = 113;
             this.btnShowSelectedId.Text = "Show Selected Id";
             this.btnShowSelectedId.UseVisualStyleBackColor = true;
@@ -216,7 +216,7 @@ namespace LoadDisplayData
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(770, 485);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbComboBox);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.gbDisplayData);
             this.Name = "frmMain";
@@ -225,8 +225,8 @@ namespace LoadDisplayData
             this.gbDisplayData.ResumeLayout(false);
             this.gbDisplayData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoadCSVFile)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbComboBox.ResumeLayout(false);
+            this.gbComboBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -240,14 +240,14 @@ namespace LoadDisplayData
         private System.Windows.Forms.OpenFileDialog OFD;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ComboBox cboIDName;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbComboBox;
         private System.Windows.Forms.Button btnShowSelectedId;
         private System.Windows.Forms.DataGridView dgvLoadCSVFile;
         private System.Windows.Forms.Button btnReplace;
         private System.Windows.Forms.Button btnRowColumnSwitch;
         internal System.Windows.Forms.Button btnComboCsvFile;
         private System.Windows.Forms.TextBox txtComboCsvFile;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblComboBoxCsvFile;
     }
 }
 

@@ -61,6 +61,51 @@ namespace LoadDisplayData.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Browse/Load to ComboBox.
+        /// </summary>
+        internal static string BrowseLoadToComboBox {
+            get {
+                return ResourceManager.GetString("BrowseLoadToComboBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Browse/Load to Data Grid.
+        /// </summary>
+        internal static string BrowseLoadToDataGrid {
+            get {
+                return ResourceManager.GetString("BrowseLoadToDataGrid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        internal static string Close {
+            get {
+                return ResourceManager.GetString("Close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ComboBox.
+        /// </summary>
+        internal static string ComboBox {
+            get {
+                return ResourceManager.GetString("ComboBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ComboBox CSV File:.
+        /// </summary>
+        internal static string ComboBoxCSVFile {
+            get {
+                return ResourceManager.GetString("ComboBoxCSVFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data CSV File.
         /// </summary>
         internal static string DataCSVFile {
@@ -79,11 +124,38 @@ namespace LoadDisplayData.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Full Column Select.
+        /// </summary>
+        internal static string FullColumnSelect {
+            get {
+                return ResourceManager.GetString("FullColumnSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Load and Display CSV Data.
         /// </summary>
         internal static string LoadAndDisplayCSVData {
             get {
                 return ResourceManager.GetString("LoadAndDisplayCSVData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace &apos;a&apos; with @ for the selected grid column.
+        /// </summary>
+        internal static string ReplaceForSelectedColumn {
+            get {
+                return ResourceManager.GetString("ReplaceForSelectedColumn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Selected Id.
+        /// </summary>
+        internal static string ShowSelectedId {
+            get {
+                return ResourceManager.GetString("ShowSelectedId", resourceCulture);
             }
         }
     }

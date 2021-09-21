@@ -117,13 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BrowseLoadToComboBox" xml:space="preserve">
+    <value>Browse/Load to ComboBox</value>
+  </data>
+  <data name="BrowseLoadToDataGrid" xml:space="preserve">
+    <value>Browse/Load to Data Grid</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ComboBox" xml:space="preserve">
+    <value>ComboBox</value>
+  </data>
+  <data name="ComboBoxCSVFile" xml:space="preserve">
+    <value>ComboBox CSV File:</value>
+  </data>
   <data name="DataCSVFile" xml:space="preserve">
     <value>Data CSV File</value>
   </data>
   <data name="DisplayDataCSVFile" xml:space="preserve">
     <value>Display Data CSV File</value>
   </data>
+  <data name="FullColumnSelect" xml:space="preserve">
+    <value>Full Column Select</value>
+  </data>
   <data name="LoadAndDisplayCSVData" xml:space="preserve">
     <value>Load and Display CSV Data</value>
+  </data>
+  <data name="ReplaceForSelectedColumn" xml:space="preserve">
+    <value>Replace 'a' with @ for the selected grid column</value>
+  </data>
+  <data name="ShowSelectedId" xml:space="preserve">
+    <value>Show Selected Id</value>
   </data>
 </root>

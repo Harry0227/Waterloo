@@ -21,11 +21,20 @@ namespace LoadDisplayData
 
             InitializeComponent();
 
+            //show diferent language
             lblDataCSV.Text = CommonResource.DataCSVFile ;
             this.Text = CommonResource.LoadAndDisplayCSVData ;
             gbDisplayData.Text = CommonResource.DisplayDataCSVFile;
-            
-            
+            cmdCSVFile.Text = CommonResource.BrowseLoadToDataGrid;
+            btnRowColumnSwitch.Text = CommonResource.FullColumnSelect;
+            btnReplace.Text = CommonResource.ReplaceForSelectedColumn;
+            gbComboBox.Text = CommonResource.ComboBox;
+            lblComboBoxCsvFile.Text = CommonResource.ComboBoxCSVFile;
+            btnComboCsvFile.Text = CommonResource.BrowseLoadToComboBox;
+            btnShowSelectedId.Text = CommonResource.ShowSelectedId;
+            btnClose.Text = CommonResource.Close;
+
+
         }
         #endregion
 
@@ -137,7 +146,7 @@ namespace LoadDisplayData
 
         private void cboIDName_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnShowSelectedId.Text = "Show Selected Id";
+            btnShowSelectedId.Text = CommonResource.ShowSelectedId; // "Show Selected Id";
         }
 
         private void btnReplace_Click(object sender, EventArgs e)
