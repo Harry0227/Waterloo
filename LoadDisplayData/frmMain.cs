@@ -89,7 +89,7 @@ namespace LoadDisplayData
 
         private void PopulateCombobox()
         {
-
+            cboIDName.DataSource = null;
             cboIDName.Items.Clear();
 
             var filePath = txtComboCsvFile.Text;
