@@ -1,0 +1,28 @@
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\bin\Debug\LoadDisplayData.exe.config
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\bin\Debug\LoadDisplayData.exe
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\bin\Debug\LoadDisplayData.pdb
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.AssemblyReference.cache
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.frmMain.resources
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.Properties.Resources.resources
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.GenerateResource.cache
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.CoreCompileInputs.cache
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.exe
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.pdb
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\bin\Debug\fr\LoadDisplayData.resources.dll
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\LoadDisplayData.Welcome.fr.resources
+C:\Personal Documents\Jobs\Jiangchun\Interview\WaterlooHydrogeologic\LoadDisplayData\obj\Debug\fr\LoadDisplayData.resources.dll
+C:\Development\C#\LoadDisplayData\bin\Debug\LoadDisplayData.exe.config
+C:\Development\C#\LoadDisplayData\bin\Debug\LoadDisplayData.exe
+C:\Development\C#\LoadDisplayData\bin\Debug\LoadDisplayData.pdb
+C:\Development\C#\LoadDisplayData\bin\Debug\fr\LoadDisplayData.resources.dll
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.AssemblyReference.cache
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.frmEntry.resources
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.frmMain.resources
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.Properties.Resources.resources
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.GenerateResource.cache
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.csproj.CoreCompileInputs.cache
+C:\Development\C#\LoadDisplayData\obj\Debug\fr\LoadDisplayData.resources.dll
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.exe
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.pdb
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.Resources.CommonResource.resources
+C:\Development\C#\LoadDisplayData\obj\Debug\LoadDisplayData.Resources.CommonResource.fr.resources
