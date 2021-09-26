@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataSource\DataSourceFactory.cs" />
-    <Compile Include="DataSource\DataTargetType.cs" />
     <Compile Include="DataSource\Implementations\DataTableFromCsv.cs" />
     <Compile Include="DataSource\ReadCsvToDataTable.cs" />
     <Compile Include="frmEntry.cs">

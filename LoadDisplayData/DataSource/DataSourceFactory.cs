@@ -7,33 +7,18 @@ using System.Data;
 
 namespace LoadDisplayData.DataSource
 {
-    public abstract class DataSourceFactory
+   
+    public abstract class TargetDataFactory
     {
         protected abstract DataTable GetDataTable();
-
-        public object GetDatasource(DataTargetType target)
+        
+        public virtual object GetDataSource()
         {
             var dt = GetDataTable();
-            var targetDataOutput = null as object;
-            switch (target)
-            {
-                case DataTargetType.DataGrid:
-                    targetDataOutput = dt;
-                    break;
-                case DataTargetType.ComboBox:
-                    List<IdName> list = new List<IdName>();
-                    for (var i = 0; i < dt.Rows.Count; i++)
-                    {
-                        var id = Convert.ToInt32(dt.Rows[i].ItemArray[0]);
-                        var name = dt.Rows[i].ItemArray[1].ToString();
-                        list.Add(new IdName(id, name));
-                    }
-                    targetDataOutput = list;
-                    break;
-                default:
-                    break;
-            }
-            return targetDataOutput;
+            return dt;
         }
+        
     }
+    
 }
+
