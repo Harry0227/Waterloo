@@ -61,8 +61,8 @@ namespace LoadDisplayData
 
             if (File.Exists(path))
             {
-                var dtFromCsv = new DataGridFromCsv(path);
-                dgvLoadCSVFile.DataSource = dtFromCsv.GetDataSource();
+                var dtFromCsv = new DataTableFromCsv();
+                dgvLoadCSVFile.DataSource = dtFromCsv.GetDataTableFromCSV(path);
             }
 
         }
@@ -96,8 +96,8 @@ namespace LoadDisplayData
 
             if (File.Exists(filePath))
             {
-                var dtFromCsv = new DataComboFromCsv(filePath);
-                cboIDName.DataSource = dtFromCsv.GetDataSource();
+                var listItemFromCsv = new ListItemFromCsv();
+                cboIDName.DataSource  = listItemFromCsv.GetListItemFromCSV(filePath);
                 cboIDName.DisplayMember = "Name";
                 cboIDName.ValueMember = "Id";
             }

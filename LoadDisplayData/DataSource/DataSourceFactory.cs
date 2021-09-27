@@ -8,14 +8,13 @@ using System.Data;
 namespace LoadDisplayData.DataSource
 {
    
-    public abstract class TargetDataFactory
+    public  class DataSourceFactory
     {
-        protected abstract DataTable GetDataTable();
-        
-        public virtual object GetDataSource()
+             
+        public static SourceItemFromCSV GetReadCsvToDataTableObj()
         {
-            var dt = GetDataTable();
-            return dt;
+            
+            return new SourceItemFromCSV();
         }
         
     }

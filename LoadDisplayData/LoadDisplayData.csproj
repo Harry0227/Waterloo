@@ -51,8 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataSource\DataSourceFactory.cs" />
-    <Compile Include="DataSource\Implementations\DataTableFromCsv.cs" />
-    <Compile Include="DataSource\ReadCsvToDataTable.cs" />
+    <Compile Include="DataSource\IDataTableFromCSV.cs" />
+    <Compile Include="DataSource\IListItemFromCSV.cs" />
+    <Compile Include="DataSource\Implementations\DataSourceFromCsv.cs" />
+    <Compile Include="DataSource\SourceItemFromCSV.cs" />
     <Compile Include="frmEntry.cs">
       <SubType>Form</SubType>
     </Compile>
