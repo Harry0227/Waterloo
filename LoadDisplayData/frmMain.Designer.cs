@@ -100,6 +100,9 @@ namespace LoadDisplayData
             this.dgvLoadCSVFile.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLoadCSVFile.Size = new System.Drawing.Size(594, 198);
             this.dgvLoadCSVFile.TabIndex = 116;
+           
+            this.dgvLoadCSVFile.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgvLoadCSVFile_CellValidating);
+            
             // 
             // cmdCSVFile
             // 
