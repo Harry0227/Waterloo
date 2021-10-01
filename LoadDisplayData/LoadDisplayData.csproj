@@ -50,11 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSource\DataSourceFactory.cs" />
-    <Compile Include="DataSource\IDataTableFromCSV.cs" />
-    <Compile Include="DataSource\IListItemFromCSV.cs" />
-    <Compile Include="DataSource\Implementations\DataSourceFromCsv.cs" />
-    <Compile Include="DataSource\SourceItemFromCSV.cs" />
+    <Compile Include="DataSource\DataTableDataSource.cs" />
+    <Compile Include="DataSource\IDataSource.cs" />
+    <Compile Include="DataSource\ListItemDataSource.cs" />
+    <Compile Include="DataSource\DataTableFromCSV.cs" />
     <Compile Include="frmEntry.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LoadDisplayData.DataSource
 {
-    public interface IListItemFromCSV
+    public interface IDataSource
     {
-         List<IdName> GetListItemFromCSV(string filePath);
+        object GetDataSource(string filePath);
     }
 }
