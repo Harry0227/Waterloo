@@ -229,29 +229,25 @@ namespace LoadDisplayData
             PopulateCombobox();
         }
 
-        
+
 
         private void dgvLoadCSVFile_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
 
             dgvLoadCSVFile.Rows[e.RowIndex].ErrorText = "";
+
             int newInteger;
-
-            // Don't try to validate the 'new row' until finished 
-            // editing since there
-            // is not any point in validating its initial value.
-            if (dgvLoadCSVFile.Rows[e.RowIndex].IsNewRow) { return; }
-
+                        
             if (dgvLoadCSVFile.Columns[e.ColumnIndex].Name == "screen_id")
+            { 
+                if (!int.TryParse(e.FormattedValue.ToString(),
+                    out newInteger) || newInteger < 0)
+                {
+                    e.Cancel = true;
+                    dgvLoadCSVFile.Rows[e.RowIndex].ErrorText = "the column screen_id value must be a non-negative integer.";
+                }
 
-            if (!int.TryParse(e.FormattedValue.ToString(),
-                out newInteger) || newInteger < 0)
-            {
-                e.Cancel = true;
-                dgvLoadCSVFile.Rows[e.RowIndex].ErrorText = "the column screen_id value must be a non-negative integer.";
-            }
-            
-                    
+            }        
 
         }
     }
