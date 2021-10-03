@@ -4,9 +4,8 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Globalization;
 using LoadDisplayData.DataSource;
-using LoadDisplayData.DataSource.Implementations;
 using LoadDisplayData.Resources;
-
+using LoadDisplayData.Factory;
 
 namespace LoadDisplayData
 {
@@ -61,7 +60,7 @@ namespace LoadDisplayData
 
             if (File.Exists(path))
             {
-                DataTableDataSource dataTableDataSource = new DataTableDataSource();
+                IDataSource dataTableDataSource = Factory.Factory.CreateDataTableDataSource();
                 dgvLoadCSVFile.DataSource = dataTableDataSource.GetDataSource(path);
             }
 
@@ -96,7 +95,7 @@ namespace LoadDisplayData
 
             if (File.Exists(filePath))
             {
-                ListItemDataSource listItemDataSource = new ListItemDataSource();
+                IDataSource listItemDataSource = Factory.Factory.CreateListItemDataSource();
 
                 cboIDName.DataSource  = listItemDataSource.GetDataSource(filePath);
                 cboIDName.DisplayMember = "Name";

@@ -54,6 +54,7 @@
     <Compile Include="DataSource\IDataSource.cs" />
     <Compile Include="DataSource\ListItemDataSource.cs" />
     <Compile Include="DataSource\DataTableFromCSV.cs" />
+    <Compile Include="Factory\Factory.cs" />
     <Compile Include="frmEntry.cs">
       <SubType>Form</SubType>
     </Compile>

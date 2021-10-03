@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoadDisplayData.DataSource.Implementations
+namespace LoadDisplayData.DataSource
 {
     public class DataTableDataSource : IDataSource
     {
